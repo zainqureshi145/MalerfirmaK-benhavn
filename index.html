@@ -9,7 +9,8 @@
                 <label for="username">Username</label>
                 <input id="username" type="email" placeholder="Enter Your Username" required>
                 <label for="password">Password</label>
-                <input id="password" type="password" placeholder="Enter Your Password" required>
+               <!-- <input id="password" type="password" placeholder="Enter Your Password" required minlength="5" maxlength="10"> -->
+               <input id="password" type="password" placeholder="Enter Your Password" required pattern=".{5,10}" title="Password must be between 5 to 10 characters long">
 
                 <p>Do you Like Cats or Dogs?</p>
 
@@ -25,7 +26,7 @@
                     <option value="Normal">:]</option>
                     <option value="Sad">:(</option>
                 </select>
-
+>
                 <textarea name="Paragraph" rows="10" cols="30"></textarea>
 
                 <button>Login</button>
