@@ -5,11 +5,29 @@
         <body>
             <h1>Login</h1>
             <div>
-            <form action="http://www.google.no" method="POST">
+            <form action="http://www.google.no" method="GET">
                 <label for="username">Username</label>
-                <input id="username" type="text" placeholder="Enter Your Username">
+                <input id="username" type="email" placeholder="Enter Your Username" required>
                 <label for="password">Password</label>
-                <input id="password" type="password" placeholder="Enter Your Password">
+                <input id="password" type="password" placeholder="Enter Your Password" required>
+
+                <p>Do you Like Cats or Dogs?</p>
+
+                    <label for="dogs">Dogs:</label>
+                    <input name="petChoice" id="dogs" type="radio" value="DOGS">
+                    <label for="cats">Cats:</label>
+                    <input name="petChoice" id="cats" type="radio" value="CATS">
+
+                <p>What's Your Current Mood?</p>
+
+                <select name="mood">
+                    <option value="Happy">:)</option>
+                    <option value="Normal">:]</option>
+                    <option value="Sad">:(</option>
+                </select>
+
+                <textarea name="Paragraph" rows="10" cols="30"></textarea>
+
                 <button>Login</button>
             </div>
             </form>
