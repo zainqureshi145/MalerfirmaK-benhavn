@@ -1,15 +1,39 @@
+body{
+    /*background: url(/resources/background.jpg);*/
+    background: rgba(90, 8, 90, 0.5);
+}
 h1{
     color: brown;
     font-size: 40px;
 }
 
 p{
-    color: blueviolet;
-    font-size: 20px;
+    color: black;
+    font-size: 25px;
 }
 
 .Form1{
+    color: rgba(0, 0, 0, 0.8);
+}
+textarea{
+    width: 500px;
+    padding: 5px;
+    text-decoration-color: black;
+    border: 2px solid black;
+}
+label{
     color: black;
-    font-size: 20px;
-    background-color: wheat;
+    font-size: 30px;
+}
+button{
+    width: 100px;
+    padding: 10px;
+    text-decoration-color: brown;
+    border: 2px solid black;
+}
+select{
+    width: 100px;
+    padding: 10px;
+    text-decoration-color: brown;
+    border: 2px solid black;
 }
