@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <head>
         <title>Malerfirma København</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <body>
             <h1>Login</h1>
-            <div>
+            <div class="form-group">
             <form class = "Form1" action="http://www.google.no" method="GET">
                 <label for="username">Username</label>
-                <input id="username" type="email" placeholder="Enter Your Username" required>
+                <input class = "form-control" id="username" type="email" placeholder="Enter Your Username" required>
                 <label for="password">Password</label>
                <!-- <input id="password" type="password" placeholder="Enter Your Password" required minlength="5" maxlength="10"> -->
-               <input id="password" type="password" placeholder="Enter Your Password" required pattern=".{5,10}" title="Password must be between 5 to 10 characters long">
+               <input class = "form-control" id="password" type="password" placeholder="Enter Your Password" required pattern=".{5,10}" title="Password must be between 5 to 10 characters long">
 
                 <p>Do you Like Cats or Dogs?</p>
-
                     <label for="dogs">Dogs:</label>
-                    <input name="petChoice" id="dogs" type="radio" value="DOGS">
+                    <input class = "input-group" name="petChoice" id="dogs" type="radio" value="DOGS">
                     <label for="cats">Cats:</label>
-                    <input name="petChoice" id="cats" type="radio" value="CATS">
+                    <input class = "input-group" name="petChoice" id="cats" type="radio" value="CATS">
 
                 <p>What's Your Current Mood?</p>
 
                 <label for="moodSelector">Mood Selector</label>
-                <select id = "moodSelector" name="mood">
+                <select class = "custom-select" id = "moodSelector" name="mood">
                     <option value="Happy">:)</option>
                     <option value="Normal">:]</option>
                     <option value="Sad">:(</option>
                 </select>
                 <div>
-                <button type="submit">Login</button>
+                <button class = "btn btn-primary" type="submit">Login</button>
             </div>
             </div>
             </form>

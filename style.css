@@ -14,15 +14,15 @@ p{
     font-size: 25px;
 }
 
-.Form1{
+form{
     text-align: justify;
     margin: auto;
     /* margin-left: 42.5%; */
     /* padding-left: 50px; */
     padding: 30px;
     background-color: rgba(46, 6, 54, 0.4);
-    height: 500px;
-    width: 250px;
+    height: 800px;
+    width: 400px;
     color: rgba(0, 0, 0, 0.8);
 }
 label{
